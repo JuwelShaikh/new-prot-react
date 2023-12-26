@@ -3,6 +3,11 @@ import '../intro/intro.css'
 import git from '../../img/github.png'
 import linkedin from '../../img/linkedin.png'
 import inst from '../../img/instagram.png'
+import Vector1 from'../../img/Vector1.png'
+import Vector2 from'../../img/Vector2.png'
+import boy from'../../img/boy.png'
+import thumbup from'../../img/thumbup.png'
+import crowm from'../../img/crown.png'
 
 const Intro = () => {
     return (
