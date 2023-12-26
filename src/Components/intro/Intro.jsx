@@ -9,6 +9,7 @@ import boy from'../../img/boy.png'
 import thumbup from'../../img/thumbup.png'
 import crowm from'../../img/crown.png'
 import glassesimoj from'../../img/glassesimoji.png'
+import Motion from './Motion/Motion';
 
 const Intro = () => {
     return (
@@ -30,7 +31,7 @@ const Intro = () => {
             <div className="i-right">
                 <img src={Vector1} alt="" />
                 <img src={Vector2} alt="" />
-                
+                <Motion/>
                 <img src={boy} alt="" />
             </div>
             
