@@ -8,6 +8,7 @@ import Vector2 from'../../img/Vector2.png'
 import boy from'../../img/boy.png'
 import thumbup from'../../img/thumbup.png'
 import crowm from'../../img/crown.png'
+import glassesimoj from'../../img/glassesimoji.png'
 
 const Intro = () => {
     return (
@@ -22,11 +23,14 @@ const Intro = () => {
                 <div className="i-icons">
                    <a href='https://github.com/JuwelShaikh' target="_blank"> <img src= {git} alt="" /></a>
                     <a href="https://www.instagram.com/juwel_shaikh/" target='_blank'><img src={inst} alt="" /></a>
-                    <a href="https://www.linkedin.com/in/juwel-shaikh-236b73262/" target='_blank'><img src= {linkedin}alt="" /></a>
+                    <a href="https://www.linkedin.com/in/juwel-shaikh-236b73262/" target='_blank
+                    '><img src= {linkedin}alt="" /></a>
                 </div>
             </div>
             <div className="i-right">
-                this is the right side
+                <img src={Vector1} alt="" />
+                <img src={Vector2} alt="" />
+                <img src={boy} alt="" />
             </div>
             
         </div>
