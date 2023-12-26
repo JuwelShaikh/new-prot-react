@@ -20,9 +20,9 @@ const Intro = () => {
                 </div>
                 <button className='button i-button'>Hire me!</button>
                 <div className="i-icons">
-                    <img src= {git} alt="" />
-                    <img src={inst} alt="" />
-                    <img src= {linkedin}alt="" />
+                   <a href='https://github.com/JuwelShaikh' target="_blank"> <img src= {git} alt="" /></a>
+                    <a href="https://www.instagram.com/juwel_shaikh/" target='_blank'><img src={inst} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/juwel-shaikh-236b73262/" target='_blank'><img src= {linkedin}alt="" /></a>
                 </div>
             </div>
             <div className="i-right">
