@@ -23,9 +23,19 @@
 }
 .n-list{
     flex: 10;
+    display: flex;
+    gap: 50px;
 }
 .n-list>ul{
     display: flex;
     gap: 50px;
-    
+    margin-right: 3rem;
 }
+.n-list>ul>li{
+    list-style-type: none;
+}
+.n-list>ul>li:hover{
+    cursor: pointer;
+    color:var(--orange) ;
+}
+
