@@ -31,8 +31,10 @@ const Intro = () => {
             <div className="i-right">
                 <img src={Vector1} alt="" />
                 <img src={Vector2} alt="" />
-                <Motion/>
                 <img src={boy} alt="" />
+                <div>
+                    <Motion image={crowm} text1='Web' text2='Developer'/>
+                </div>
             </div>
             
         </div>
