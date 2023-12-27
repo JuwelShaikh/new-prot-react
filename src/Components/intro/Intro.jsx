@@ -32,8 +32,11 @@ const Intro = () => {
                 <img src={Vector1} alt="" />
                 <img src={Vector2} alt="" />
                 <img src={boy} alt="" />
-                <div>
+                <div style={{top: '-4%', left: '68%'}}>
                     <Motion image={crowm} text1='Web' text2='Developer'/>
+                </div>
+                <div>
+                    <Motion image={thumbup} text1='Best Design'/>
                 </div>
             </div>
             
