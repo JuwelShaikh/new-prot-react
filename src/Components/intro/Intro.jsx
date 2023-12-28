@@ -9,6 +9,7 @@ import boy from'../../img/boy.png'
 import thumbup from'../../img/thumbup.png'
 import crowm from'../../img/crown.png'
 import glassesimoj from'../../img/glassesimoji.png'
+import juwel from'../../img/juwel.png'
 import Motion from './Motion/Motion';
 
 const Intro = () => {
