@@ -40,9 +40,15 @@ const Intro = () => {
                     <Motion image={thumbup} text1='Best Design' text2='Award '/>
                 </div>
                 {/* blurDivs */}
-                <div className="blur-divs" style={{background:'rgb(238 210 255'}}>
-
+                <div className="blur-div" style={{background:'rgb(238 210 255'}}>
                 </div>
+                <div className="blur-div" style={{
+                    background:'#c1f5ff',
+                    top: '17rem',
+                    width: '21rem',
+                    height: '11rem',
+                    left:'-9rem'
+                }}></div>
             </div>
             
         </div>
