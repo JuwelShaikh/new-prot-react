@@ -32,11 +32,16 @@ const Intro = () => {
                 <img src={Vector1} alt="" />
                 <img src={Vector2} alt="" />
                 <img src={boy} alt="" />
+                <img src={glassesimoj} alt="" />
                 <div style={{top: '-4%', left: '68%'}}>
                     <Motion image={crowm} text1='Web' text2='Developer'/>
                 </div>
-                <div>
-                    <Motion image={thumbup} text1='Best Design'/>
+                <div style={{top: '18rem', left:'0rem'}}>
+                    <Motion image={thumbup} text1='Best Design' text2='Award '/>
+                </div>
+                {/* blurDivs */}
+                <div className="blur-divs" style={{background:'rgb(238 210 255'}}>
+
                 </div>
             </div>
             
