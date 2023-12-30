@@ -35,6 +35,14 @@ const Services = () => {
                     details ={'HTML, CSS, JavaScript, React'}
                 />
             </div>
+            {/* third card */}
+            <div style={{top:'19rem', left:'12rem' }}>
+            <Card
+                    emoji={humble}
+                    heading = {'UI/UX'}
+                    details ={'lorem ispum text are usually use in section where'}
+                />
+            </div>
         </div>
         </div>
     );
