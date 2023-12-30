@@ -17,7 +17,7 @@ const Services = () => {
         </div>
         {/* right-side */}
         <div className="cards">
-
+            Right side
         </div>
         </div>
     );
