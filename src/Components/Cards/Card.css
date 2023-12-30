@@ -21,3 +21,14 @@
     transform: scale(0.6);
     margin-bottom: -2rem;
 }
+.c-button{
+    background: #fff;
+    box-shadow: 0px 19px 60px rgba(0, 0, 0, 0.08);
+    border-radius: 7px;
+    border: none;
+    padding: 16px;
+    color: rgb(51, 193, 250);
+}
+
+
+
