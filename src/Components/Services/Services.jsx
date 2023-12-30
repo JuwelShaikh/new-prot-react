@@ -17,7 +17,13 @@ const Services = () => {
         </div>
         {/* right-side */}
         <div className="cards">
-            Right side
+            <div>
+                <card
+                    emoji={heartEmoji}
+                    heading = {'Desing'}
+                    details ={'Figma, Scratch, Adobe'}
+                />
+            </div>
         </div>
         </div>
     );
