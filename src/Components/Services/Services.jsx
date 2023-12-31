@@ -4,6 +4,7 @@ import heartEmoji from '../../img/heartemoji.png'
 import glasess from '../../img/glasses.png'
 import humble from '../../img/humble.png'
 import Card from '../Cards/Card';
+import resume from '../Services/Juwel CV PDF.pdf'
 
 const Services = () => {
     return (
@@ -13,7 +14,9 @@ const Services = () => {
             <span>My awesome</span>
             <span>Services</span>
             <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores amet aut aspernatur explicabo deleniti totam possimus nobis, <br /> laudantium praesentium reprehenderit repellendus similique laborum </span>
+            <a href={resume} download>
             <button className='button s-button'>Download CV</button>
+            </a>
             <div className="blur s-blur" style={{background: '#abf1ff94'}}></div>
         </div>
         {/* right-side */}
