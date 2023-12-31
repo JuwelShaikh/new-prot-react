@@ -11,6 +11,9 @@
     flex-direction: column;
     align-items: center;
 }
+.achievement span:nth-of-type(2){
+    color: var(--orange);
+}
 .circle{
     display: flex;
     justify-content: center;
@@ -28,6 +31,7 @@
     border-radius: 100%;
     content: '';
     background-image: linear-gradient(to bottom, #87e6fb 0%, #ffc05c 100%);
+    top: -8px;
     left: -8px;
     bottom: -8px;
     right: -8px;
