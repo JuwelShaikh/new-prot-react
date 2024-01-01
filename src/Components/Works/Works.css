@@ -1,3 +1,6 @@
-.works{
-    
+.work{
+    padding: 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-top: 4rem;
 }
