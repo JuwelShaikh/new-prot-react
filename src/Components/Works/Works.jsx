@@ -1,5 +1,10 @@
 import React from 'react';
 import '../Works/Works.css'
+import upwork from '../../img/Upwork.png'
+import fiver from '../../img/fiverr.png'
+import amazon from '../../img/amazon.png'
+import spotify from '../../img/Shopify.png'
+import facebook from '../../img/Facebook.png'
 
 const Works = () => {
     return (
