@@ -16,7 +16,12 @@ const Protfolio = () => {
             <span>Protfolio</span>
 
             {/* slider */}
-            <Swiper>
+            <Swiper
+                spaceBetween={30}
+                slidesPerView={3}
+                grabCursor={true}
+                className='protfolio-slider'
+            >
                 <SwiperSlide>
                     <img src={sidebar} alt="" />
                 </SwiperSlide>
