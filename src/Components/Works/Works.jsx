@@ -16,7 +16,29 @@ const Works = () => {
 
                 <button className='button s-button'>Hire me</button>
 
-                <div className="blur s-blur" style={{ background: '#abf1ff94' }}></div>
+            </div>
+            {/* righ-side */}
+            <div className="w-right">
+                <div className="w-mainCircle">
+                    <div className="w-secCircle">
+                        <img src={upwork} alt="" />
+                    </div>
+                    <div className="w-secCircle">
+                        <img src={amazon} alt="" />
+                    </div>
+                    <div className="w-secCircle">
+                        <img src={upwork} alt="" />
+                    </div>
+                    <div className="w-secCircle">
+                        <img src={fiver} alt="" />
+                    </div>
+                    <div className="w-secCircle">
+                        <img src={spotify} alt="" />
+                    </div>
+                    <div className="w-secCircle">
+                        <img src={facebook} alt="" />
+                    </div>
+                </div>
             </div>
         </div>
     );
