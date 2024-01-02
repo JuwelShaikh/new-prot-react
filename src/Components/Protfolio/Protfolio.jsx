@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Protfolio/Protfolio.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 import slider from '../../img/sidebar.png'
 import ecommerce from '../../img/ecommerce.png'
 import hoc from '../../img/hoc.png'
