@@ -24,10 +24,10 @@ const Works = () => {
                         <img src={upwork} alt="" />
                     </div>
                     <div className="w-secCircle">
-                        <img src={amazon} alt="" />
+                        <img src={fiver} alt="" />
                     </div>
                     <div className="w-secCircle">
-                        <img src={fiver} alt="" />
+                        <img src={amazon} alt="" />
                     </div>
                     <div className="w-secCircle">
                         <img src={spotify} alt="" />
