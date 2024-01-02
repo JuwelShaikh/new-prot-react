@@ -27,9 +27,6 @@ const Works = () => {
                         <img src={amazon} alt="" />
                     </div>
                     <div className="w-secCircle">
-                        <img src={upwork} alt="" />
-                    </div>
-                    <div className="w-secCircle">
                         <img src={fiver} alt="" />
                     </div>
                     <div className="w-secCircle">
