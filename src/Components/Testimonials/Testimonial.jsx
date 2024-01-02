@@ -1,9 +1,55 @@
 import React from 'react';
 import '../Testimonials/Testimonial.css'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import propic1 from '../../img/profile1.jpg';
+import propic2 from '../../img/profile2.jpg';
+import propic3 from '../../img/profile3.jpg';
+import propic4 from '../../img/profile4.jpg';
+
+
+
 const Testimonial = () => {
+    const clients = [
+        {
+            img: propic1,
+            review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, similique autem sapiente suscipit mollitia porro quia nesciunt soluta. Commodi, doloremque! Deserunt natus illum dolorem inventore nemo, velit sequi harum quia!",
+        },
+        {
+            img: propic2,
+            review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, similique autem sapiente suscipit mollitia porro quia nesciunt soluta. Commodi, doloremque! Deserunt natus illum dolorem inventore nemo, velit sequi harum quia!",
+        },
+        {
+            img: propic3,
+            review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, similique autem sapiente suscipit mollitia porro quia nesciunt soluta. Commodi, doloremque! Deserunt natus illum dolorem inventore nemo, velit sequi harum quia!",
+        },
+        {
+            img: propic4,
+            review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, similique autem sapiente suscipit mollitia porro quia nesciunt soluta. Commodi, doloremque! Deserunt natus illum dolorem inventore nemo, velit sequi harum quia!",
+        }
+    ]
+    
     return (
-        <div>
-            
+        <div className='t-wrapper'>
+            <div className="t-heading">
+                <span>Clients always get</span>
+                <span>Exceptional work</span>
+                <span>From me...</span>
+            </div>
+            {/* slider */}
+            <Swiper 
+                modules={[Paginaion]}
+                slidesPerView={1}
+                pagination={{clickable: true}}
+            >
+                {clients.map((client, index) => {
+                    return(
+                        <SwiperSlide key={index}>
+                            <img src={client.img} alt="" />  
+                            <span>{client.review}</span>
+                        </SwiperSlide>
+                    )
+                })}
+            </Swiper>
         </div>
     );
 };
