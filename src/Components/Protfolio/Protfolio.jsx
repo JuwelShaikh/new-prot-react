@@ -2,7 +2,7 @@ import React from 'react';
 import '../Protfolio/Protfolio.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import slider from '../../img/sidebar.png'
+import sidebar from '../../img/sidebar.png'
 import ecommerce from '../../img/ecommerce.png'
 import hoc from '../../img/hoc.png'
 import musicapp from '../../img/musicapp.png'
@@ -18,7 +18,16 @@ const Protfolio = () => {
             {/* slider */}
             <Swiper>
                 <SwiperSlide>
-                    <img src="" alt="" />
+                    <img src={sidebar} alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={ecommerce} alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={musicapp} alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={hoc} alt="" />
                 </SwiperSlide>
             </Swiper>
            
