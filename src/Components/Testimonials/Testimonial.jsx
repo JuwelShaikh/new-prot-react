@@ -15,7 +15,7 @@ const Testimonial = () => {
     const clients = [
         {
             img: propic1,
-            review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, similique autem sapiente suscipit mollitia porro quia nesciunt soluta. Commodi, doloremque! Deserunt natus illum dolorem inventore nemo, velit sequi harum quia!",
+            review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, similique autem sapiente suscipit mollitia porro quia nesciunt soluta. Commodi, doloremque! Deserunt natus illum dolorem inventore nemo!",
         },
         {
             img: propic2,
@@ -23,11 +23,11 @@ const Testimonial = () => {
         },
         {
             img: propic3,
-            review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, similique autem sapiente suscipit mollitia porro quia nesciunt soluta. Commodi, doloremque! Deserunt natus illum dolorem inventore nemo, velit sequi harum quia!",
+            review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, similique autem sapiente suscipit mollitia porro quia nesciunt soluta. Commodi, doloremque! Deserunt natus illum dolorem ",
         },
         {
             img: propic4,
-            review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, similique autem sapiente suscipit mollitia porro quia nesciunt soluta. Commodi, doloremque! Deserunt natus illum dolorem inventore nemo, velit sequi harum quia!",
+            review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, similique autem sapiente suscipit mollitia porro quia nesciunt soluta. Commodi, doloremque! ",
         }
     ]
 
