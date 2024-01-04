@@ -30,7 +30,7 @@ const Testimonial = () => {
             review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, similique autem sapiente suscipit mollitia porro quia nesciunt soluta. Commodi, doloremque! Deserunt natus illum dolorem inventore nemo, velit sequi harum quia!",
         }
     ]
-    
+
     return (
         <div className='t-wrapper'>
             <div className="t-heading">
@@ -39,20 +39,22 @@ const Testimonial = () => {
                 <span>From me...</span>
             </div>
             {/* slider */}
-            <Swiper 
+            <Swiper
                 modules={[Pagination]}
                 slidesPerView={1}
-                pagination={{clickable: true}}
+                pagination={{ clickable: true }}
             >
                 {clients.map((client, index) => {
-                    return(
+                    return (
                         <SwiperSlide key={index}>
-                            <img src={client.img} alt="" />  
-                            <span>{client.review}</span>
+                            <div className="testimonial">
+                                <img src={client.img} alt="" />
+                                <span>{client.review}</span>
+                            </div>
                         </SwiperSlide>
                     )
                 })}
-            </Swiper>
+            </Swiper> 
         </div>
     );
 };
