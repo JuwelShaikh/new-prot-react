@@ -5,6 +5,7 @@ import propic1 from '../../img/profile1.jpg';
 import propic2 from '../../img/profile2.jpg';
 import propic3 from '../../img/profile3.jpg';
 import propic4 from '../../img/profile4.jpg';
+import { Pagination } from 'swiper/modules';
 
 
 
@@ -37,7 +38,7 @@ const Testimonial = () => {
             </div>
             {/* slider */}
             <Swiper 
-                modules={[Paginaion]}
+                modules={[Pagination]}
                 slidesPerView={1}
                 pagination={{clickable: true}}
             >
