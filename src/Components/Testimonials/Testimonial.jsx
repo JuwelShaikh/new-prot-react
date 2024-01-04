@@ -14,19 +14,19 @@ import 'swiper/css';
 const Testimonial = () => {
     const clients = [
         {
-            img: propic1,
+            img: propic2,
             review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, similique autem sapiente suscipit mollitia porro quia nesciunt soluta. Commodi, doloremque! Deserunt natus illum dolorem inventore nemo!",
         },
         {
-            img: propic2,
+            img: propic3,
             review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, similique autem sapiente suscipit mollitia porro quia nesciunt soluta. Commodi, doloremque! Deserunt natus illum dolorem inventore nemo, velit sequi harum quia!",
         },
         {
-            img: propic3,
+            img: propic4,
             review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, similique autem sapiente suscipit mollitia porro quia nesciunt soluta. Commodi, doloremque! Deserunt natus illum dolorem ",
         },
         {
-            img: propic4,
+            img: propic1,
             review: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, similique autem sapiente suscipit mollitia porro quia nesciunt soluta. Commodi, doloremque! ",
         }
     ]
