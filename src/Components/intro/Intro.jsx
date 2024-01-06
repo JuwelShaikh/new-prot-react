@@ -40,12 +40,20 @@ const Intro = () => {
                     transition={transition}
 
                 src={glassesimoj} alt="" />
-                <div style={{top: '-4%', left: '68%'}}>
+                <motion.div 
+                    initial={{top: '-4%', left: '74%'}}
+                    whileInView={{left:'68%'}}
+                    transition={transition}
+                style={{top: '-4%', left: '68%'}}>
                     <Motion image={crowm} text1='Web' text2='Developer'/>
-                </div>
-                <div style={{top: '18rem', left:'0rem'}}>
+                </motion.div>
+                <motion.div
+                    initial={{left:'9rem', top:'18rem'}}
+                    whileInView={{left:"0rem"}}
+                    transition={transition}
+                style={{top: '18rem', left:'0rem'}}>
                     <Motion image={thumbup} text1='Best Design' text2='Award '/>
-                </div>
+                </motion.div>
                 {/* blurDivs */}
                 <div className="blur-div" style={{background:'rgb(238 210 255'}}>
                 </div>
