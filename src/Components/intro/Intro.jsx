@@ -9,10 +9,11 @@ import boy from'../../img/boy.png'
 import thumbup from'../../img/thumbup.png'
 import crowm from'../../img/crown.png'
 import glassesimoj from'../../img/glassesimoji.png'
-import juwel from'../../img/juwel.png'
 import Motion from './Motion/Motion';
+import { motion } from "framer-motion"
 
 const Intro = () => {
+    const transition = {duration: 2, type: 'spring'}
     return (
         <div className='intro'>
             <div className="i-left">
@@ -33,7 +34,12 @@ const Intro = () => {
                 <img src={Vector1} alt="" />
                 <img src={Vector2} alt="" />
                 <img src={boy} alt="" />
-                <img src={glassesimoj} alt="" />
+                <motion.img
+                    initial={{left:'-36%'}}
+                    whileInView={{left:'-24%'}}
+                    transition={transition}
+
+                src={glassesimoj} alt="" />
                 <div style={{top: '-4%', left: '68%'}}>
                     <Motion image={crowm} text1='Web' text2='Developer'/>
                 </div>
