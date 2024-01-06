@@ -5,8 +5,10 @@ import glasess from '../../img/glasses.png'
 import humble from '../../img/humble.png'
 import Card from '../Cards/Card';
 import resume from '../Services/Juwel CV PDF.pdf'
+import { motion } from 'framer-motion';
 
 const Services = () => {
+    const transition ={duration:1, type: "sprint"}
     return (
         <div className='services'>
             {/* left-side */}
@@ -21,7 +23,9 @@ const Services = () => {
         </div>
         {/* right-side */}
         <div className="cards">
-            <div style={{
+            <motion.div
+                initial={}
+            style={{
                 left:'14rem'
             }}>
                 <Card
@@ -29,7 +33,7 @@ const Services = () => {
                     heading = {'Desing'}
                     details ={'Figma, Scratch, Adobe'}
                 />
-            </div>
+            </motion.div>
             {/* second card */}
             <div style={{top:'12rem', left:'-4rem' }}>
             <Card
