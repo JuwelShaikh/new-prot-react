@@ -24,7 +24,9 @@ const Services = () => {
         {/* right-side */}
         <div className="cards">
             <motion.div
-                initial={}
+                initial={{left:"25rem"}}
+                whileInView={{left:'14rem'}}
+                transition={transition}
             style={{
                 left:'14rem'
             }}>
@@ -35,21 +37,29 @@ const Services = () => {
                 />
             </motion.div>
             {/* second card */}
-            <div style={{top:'12rem', left:'-4rem' }}>
+            <motion.div 
+                initial={{right:'24rem'}}
+                whileInView={{right:"15rem"}}
+                transition={transition}
+            style={{top:'12rem', left:'-4rem' }}>
             <Card
                     emoji={glasess}
                     heading = {'Developer'}
                     details ={'HTML, CSS, JavaScript, React'}
                 />
-            </div>
+            </motion.div>
             {/* third card */}
-            <div style={{top:'19rem', left:'12rem' }}>
+            <motion.div
+                initial={{left:'20rem'}}
+                whileInView={{left:"10rem"}}
+                transition={transition}
+            style={{top:'19rem', left:'12rem' }}>
             <Card
                     emoji={humble}
                     heading = {'UI/UX'}
                     details ={'lorem ispum text are usually use in section where'}
                 />
-            </div>
+            </motion.div>
         </div>
         </div>
     );
