@@ -46,7 +46,7 @@ const Services = () => {
                     <Card
                         emoji={glasess}
                         heading={'Developer'}
-                        details={'HTML, CSS, JavaScript, React'}
+                        details={'HTML, CSS, JavaScript, React,CSS, JavaScript, React'}
                     />
                 </motion.div>
                 {/* third card */}

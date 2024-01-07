@@ -30,3 +30,11 @@
 textarea{
     height: 4rem!important;
 }
+
+@media screen and (max-width: 480px){
+    .contact-form{
+        width: 50%;
+        flex-direction: column;
+        position: relative;
+    }
+}
