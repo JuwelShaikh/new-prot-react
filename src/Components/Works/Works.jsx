@@ -5,6 +5,7 @@ import fiver from '../../img/fiverr.png'
 import amazon from '../../img/amazon.png'
 import spotify from '../../img/Shopify.png'
 import facebook from '../../img/Facebook.png'
+import {motion} from 'framer-motion'
 
 const Works = () => {
     return (
@@ -19,7 +20,12 @@ const Works = () => {
             </div>
             {/* righ-side */}
             <div className="w-right">
-                <div className="w-mainCircle">
+                <motion.div
+                initial={{rotate: 90}}
+                whileInView={{rotate: 0}}
+                viewport={{margin: '-40px'}}
+                transition={{duration: 3.5, type: 'spring'}}
+                className="w-mainCircle">
                     <div className="w-secCircle">
                         <img src={upwork} alt="" />
                     </div>
@@ -35,7 +41,7 @@ const Works = () => {
                     <div className="w-secCircle">
                         <img src={facebook} alt="" />
                     </div>
-                </div>
+                </motion.div>
                 {/* background-circle */}
                 <div className="w-backCircle blueCircle"></div>
                 <div className="w-backCircle yellowCircle"></div>
